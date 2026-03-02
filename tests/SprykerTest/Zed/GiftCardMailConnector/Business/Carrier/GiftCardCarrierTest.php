@@ -36,9 +36,6 @@ class GiftCardCarrierTest extends Unit
      */
     protected GiftCardMailConnectorBusinessTester $tester;
 
-    /**
-     * @return void
-     */
     protected function setUp(): void
     {
         parent::setUp();
@@ -46,9 +43,6 @@ class GiftCardCarrierTest extends Unit
         $this->tester->configureTestStateMachine([$this->tester::DEFAULT_OMS_PROCESS_NAME]);
     }
 
-    /**
-     * @return void
-     */
     public function testDeliverByIdSalesOrderItemExpandsMailTransferWithStoreName(): void
     {
         // Arrange

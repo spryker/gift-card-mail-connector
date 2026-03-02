@@ -26,10 +26,6 @@ class GiftCardUsageMailer implements GiftCardUsageMailerInterface
      */
     protected $giftCardFacade;
 
-    /**
-     * @param \Spryker\Zed\GiftCardMailConnector\Dependency\Facade\GiftCardMailConnectorToMailFacadeInterface $mailFacade
-     * @param \Spryker\Zed\GiftCardMailConnector\Dependency\Facade\GiftCardMailConnectorToGiftCardFacadeInterface $giftCardFacade
-     */
     public function __construct(
         GiftCardMailConnectorToMailFacadeInterface $mailFacade,
         GiftCardMailConnectorToGiftCardFacadeInterface $giftCardFacade

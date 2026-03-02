@@ -37,12 +37,6 @@ class GiftCardCarrier implements GiftCardCarrierInterface
      */
     protected $salesFacade;
 
-    /**
-     * @param \Spryker\Zed\GiftCardMailConnector\Dependency\Facade\GiftCardMailConnectorToMailFacadeInterface $mailFacade
-     * @param \Spryker\Zed\GiftCardMailConnector\Dependency\Facade\GiftCardMailConnectorToCustomerFacadeInterface $customerFacade
-     * @param \Spryker\Zed\GiftCardMailConnector\Dependency\Facade\GiftCardMailConnectorToGiftCardFacadeInterface $giftCardFacade
-     * @param \Spryker\Zed\GiftCardMailConnector\Dependency\Facade\GiftCardMailConnectorToSalesFacadeInterface $salesFacade
-     */
     public function __construct(
         GiftCardMailConnectorToMailFacadeInterface $mailFacade,
         GiftCardMailConnectorToCustomerFacadeInterface $customerFacade,

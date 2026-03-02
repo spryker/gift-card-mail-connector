@@ -38,11 +38,6 @@ class GiftCardMailConnectorBusinessTester extends Actor
      */
     public const DEFAULT_OMS_PROCESS_NAME = 'Test01';
 
-    /**
-     * @param array $override
-     *
-     * @return \Generated\Shared\Transfer\QuoteTransfer
-     */
     public function haveQuoteWithReleations(array $override = []): QuoteTransfer
     {
         return (new QuoteBuilder())

@@ -34,9 +34,6 @@ class GiftCardUsageMailerTest extends Unit
      */
     protected GiftCardMailConnectorBusinessTester $tester;
 
-    /**
-     * @return void
-     */
     public function testSendUsageNotificationExpandsMailTransferWithStoreName(): void
     {
         // Arrange
